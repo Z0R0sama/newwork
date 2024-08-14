@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+main {
+    padding: 20px;
+}
+
+.calendar-section {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.calendar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.calendar .month {
+    display: flex;
+    gap: 15px;
+    font-size: 24px;
+}
+
+.weekdays {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.weekdays span {
+    width: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.days span {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.report-section {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.report-item {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.report-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.report-details p {
+    margin: 5px 0;
+    font-size: 14px;
+}
